@@ -1,0 +1,192 @@
+
+/* variáveis */
+:root{
+  --blue: #6688FF;
+  --blue-200: #66D1FF;
+  --orange: #FFA246;
+  --green: #35E185;
+  --purple: #B266FF;
+  --pink: #FF66D4;
+  --tomato: #FF6666;
+  --white: #ffffff;
+  --red: #98031E;
+}
+
+*{
+  font-family: 'Poppins', sans-serif;
+
+}
+
+
+.header_initial{
+
+  display: grid;
+  box-shadow: 0px 4px 24px rgba(168, 168, 168, 0.25);
+  border-radius: 35px;
+  padding: 2rem 0;
+  grid-template-columns: 2fr 2fr 1fr;
+  gap: 2rem;
+  width: 100vw;
+  Height:128px;
+  align-items: center;
+}
+
+.header_description{
+  height: 64px;
+  width: 40vw;
+  background: var(--blue);
+  color: var(--white);
+  padding: 10px 0px 10px 20px;
+  border-radius: 0px 14px 15px 0px;
+
+}
+
+.header_description h3{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 20px;
+  
+}
+
+.header_description p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+
+.header_btns{
+  gap: 2rem;
+}
+
+.btn-default{
+  width: 180px;
+  height: 40px;
+  border-radius: 10px;
+  color: var(--white);
+}
+
+.btn-save-green{
+  background: #2CBE82;
+  border: #2CBE82;
+
+}
+
+.btn-delete-red{
+  background: #DA2B40;
+  border: #DA2B40
+}
+
+.clock{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.time{
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #3b3e45;
+}
+
+.date{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  align-items: center;
+  text-align: center;
+  color: #3b3e45;
+}
+
+
+.container_atividade{
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  margin-top: 25px;
+  
+}
+
+.atv_formulario{
+  display: flex;
+  width: 100vw;
+  justify-content: space-evenly;
+}
+
+.form-task{
+  width: 425px;
+  height: 2.8rem;
+  padding: 10px 198px 10px 12px;
+  border: 1px solid #2cbe82;
+  border-radius: 10px;
+}
+
+input::placeholder{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.btn-padrao{
+  width: 222px;
+  max-width: 300px;
+  height: 44px;
+  border-radius: 10px;
+  color: var(--white);
+  margin: 0 15px;
+
+  
+
+}
+
+.fa{
+  margin-right: 5px;
+}
+
+.escolher_dia{
+  width: 200px;
+  background-color: var(--white);
+  height: 2.8rem;
+  padding: 10px 198px 10px 12px;
+  border: 1px solid #2cbe82;
+  border-radius: 10px;
+}
+
+#hora{
+  width: 100px;
+  padding: 0px 10px;
+  border: 1px solid #2cbe82;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
